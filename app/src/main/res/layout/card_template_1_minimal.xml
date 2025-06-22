@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template 1: Minimal & Clean (Notion-inspired) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/surface"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <!-- Name Section -->
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김철수"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/template_1_primary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Title/Position -->
+    <TextView
+        android:id="@+id/companyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="프로덕트 디자이너"
+        android:textSize="14sp"
+        android:textColor="@color/template_1_accent"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Contact Info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/phoneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="010-1234-5678"
+            android:textSize="12sp"
+            android:textColor="@color/on_surface_variant"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello@example.com"
+            android:textSize="12sp"
+            android:textColor="@color/on_surface_variant"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울특별시 강남구"
+            android:textSize="12sp"
+            android:textColor="@color/on_surface_variant"
+            android:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+    <!-- Accent Line -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="2dp"
+        android:background="@color/template_1_accent"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout> 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notion-inspired Color Palette -->
+    
+    <!-- Primary Colors (Notion Blue) -->
+    <color name="primary">#2F3437</color>
+    <color name="primary_variant">#1F2125</color>
+    <color name="primary_container">#F7F6F3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#2F3437</color>
+
+    <!-- Secondary Colors (Notion Gray) -->
+    <color name="secondary">#787774</color>
+    <color name="secondary_variant">#5A5D5A</color>
+    <color name="secondary_container">#EBECED</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#2F3437</color>
+
+    <!-- Tertiary Colors (Notion Accent) -->
+    <color name="tertiary">#2383E2</color>
+    <color name="tertiary_container">#E3F2FD</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_container">#0A4A84</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F7F6F3</color>
+    <color name="on_surface">#2F3437</color>
+    <color name="on_surface_variant">#787774</color>
+
+    <!-- Background -->
+    <color name="background">#FAFAFA</color>
+    <color name="on_background">#2F3437</color>
+    
+    <!-- Notion specific colors -->
+    <color name="notion_background">#FAFAFA</color>
+    <color name="notion_surface">#FFFFFF</color>
+
+    <!-- Card Background -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_background_hover">#F8F9FA</color>
+
+    <!-- Outline -->
+    <color name="outline">#E1E1E0</color>
+    <color name="outline_variant">#EBECED</color>
+
+    <!-- Dark mode colors -->
+    <color name="surface_dark">#191919</color>
+    <color name="on_surface_dark">#E6E6E6</color>
+    <color name="card_background_dark">#2F2F2F</color>
+
+    <!-- Status Colors -->
+    <color name="success">#0F7B0F</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#DC2626</color>
+    <color name="info">#2383E2</color>
+
+    <!-- Template Colors for Business Cards -->
+    <color name="template_1_primary">#2F3437</color>
+    <color name="template_1_accent">#2383E2</color>
+    
+    <color name="template_2_primary">#1A1A1A</color>
+    <color name="template_2_accent">#F59E0B</color>
+    
+    <color name="template_3_primary">#0F7B0F</color>
+    <color name="template_3_accent">#34D399</color>
+    
+    <color name="template_4_primary">#7C2D12</color>
+    <color name="template_4_accent">#FB923C</color>
+    
+    <color name="template_5_primary">#581C87</color>
+    <color name="template_5_accent">#A78BFA</color>
+    
+    <color name="template_6_primary">#BE185D</color>
+    <color name="template_6_accent">#F472B6</color>
+    
+    <color name="template_7_primary">#164E63</color>
+    <color name="template_7_accent">#67E8F9</color>
+    
+    <color name="template_8_primary">#92400E</color>
+    <color name="template_8_accent">#FBBF24</color>
+
+    <!-- Legacy colors for backward compatibility -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+    <color name="card_shadow">#1A000000</color>
+
+    <!-- Common colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template 8: Gold Elegant -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/surface">
+
+    <!-- Top Golden Bar -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/template_8_accent" />
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <!-- Left Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <!-- Name with elegant styling -->
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="김철수"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/template_8_primary"
+                android:fontFamily="serif"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Golden underline -->
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:background="@color/template_8_accent"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Company/Title -->
+            <TextView
+                android:id="@+id/companyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="럭셔리 브랜드 매니저"
+                android:textSize="14sp"
+                android:textColor="@color/template_8_accent"
+                android:fontFamily="serif"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Elegant Icon -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👑"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <!-- Right Section - Contact Information -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:gravity="center_vertical|end"
+            android:layout_marginStart="16dp">
+
+            <!-- Contact Items -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="end">
+
+                <!-- Phone -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="P"
+                        android:textSize="10sp"
+                        android:textColor="@color/template_8_accent"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/gold_circle_mini"
+                        android:gravity="center"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/phoneText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="010-1234-5678"
+                        android:textSize="12sp"
+                        android:textColor="@color/on_surface"
+                        android:fontFamily="serif" />
+
+                </LinearLayout>
+
+                <!-- Email -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        android:textSize="10sp"
+                        android:textColor="@color/template_8_accent"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/gold_circle_mini"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/emailText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="hello@example.com"
+                        android:textSize="12sp"
+                        android:textColor="@color/on_surface"
+                        android:fontFamily="serif" />
+
+                </LinearLayout>
+
+                <!-- Address -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:textSize="10sp"
+                        android:textColor="@color/template_8_accent"
+                        android:fontFamily="serif"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/gold_circle_mini"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/addressText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="서울특별시"
+                        android:textSize="12sp"
+                        android:textColor="@color/on_surface"
+                        android:fontFamily="serif" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Bottom Golden Bar -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/template_8_accent" />
+
+</LinearLayout> 

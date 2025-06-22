@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    style="@style/Widget.Notion.CardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Template Preview Container -->
+        <FrameLayout
+            android:id="@+id/templatePreviewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/surface_variant">
+
+            <!-- Template layout will be inflated here -->
+
+        </FrameLayout>
+
+        <!-- Template Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/templateName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="템플릿 1"
+                android:textAppearance="@style/TextAppearance.Notion.Body"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/templateDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미니멀 &amp; 클린"
+                android:textAppearance="@style/TextAppearance.Notion.Caption"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Selection Indicator -->
+        <View
+            android:id="@+id/selectionIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/tertiary"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView> 

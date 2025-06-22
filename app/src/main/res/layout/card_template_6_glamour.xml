@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template 6: Pink Glamour -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/surface"
+    android:padding="20dp">
+
+    <!-- Central Design Element -->
+    <View
+        android:id="@+id/centralDivider"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/template_6_accent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Left Side - Name & Title -->
+    <LinearLayout
+        android:id="@+id/leftSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toStartOf="@id/centralDivider"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김철수"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/template_6_primary"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/companyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="패션 디자이너"
+            android:textSize="14sp"
+            android:textColor="@color/template_6_accent"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="6dp"
+            android:gravity="end" />
+
+        <!-- Decorative Hearts -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💖✨"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Right Side - Contact Info -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/centralDivider"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp">
+
+        <!-- Phone with Icon -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <View
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/pink_dot"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="010-1234-5678"
+                android:textSize="12sp"
+                android:textColor="@color/on_surface"
+                android:fontFamily="sans-serif" />
+
+        </LinearLayout>
+
+        <!-- Email with Icon -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <View
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/pink_dot"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello@example.com"
+                android:textSize="12sp"
+                android:textColor="@color/on_surface"
+                android:fontFamily="sans-serif" />
+
+        </LinearLayout>
+
+        <!-- Address with Icon -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/pink_dot"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서울특별시 강남구"
+                android:textSize="12sp"
+                android:textColor="@color/on_surface"
+                android:fontFamily="sans-serif" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Top Pink Accent -->
+    <View
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:background="@color/template_6_accent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <!-- Bottom Pink Accent -->
+    <View
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:background="@color/template_6_accent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout> 

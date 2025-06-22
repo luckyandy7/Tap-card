@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Notion-inspired Dark Theme -->
+    <style name="Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#E6E6E6</item>
+        <item name="colorPrimaryContainer">#2F2F2F</item>
+        <item name="colorOnPrimary">#191919</item>
+        <item name="colorOnPrimaryContainer">#E6E6E6</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#B3B3B3</item>
+        <item name="colorSecondaryVariant">#999999</item>
+        <item name="colorSecondaryContainer">#3A3A3A</item>
+        <item name="colorOnSecondary">#191919</item>
+        <item name="colorOnSecondaryContainer">#E6E6E6</item>
+
+        <!-- Tertiary brand color -->
+        <item name="colorTertiary">#67E8F9</item>
+        <item name="colorTertiaryContainer">#164E63</item>
+        <item name="colorOnTertiary">#0A1A1E</item>
+        <item name="colorOnTertiaryContainer">#C6F7FF</item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorSurfaceVariant">#2F2F2F</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="colorOnSurfaceVariant">#B3B3B3</item>
+        <item name="android:colorBackground">#191919</item>
+        <item name="colorOnBackground">#E6E6E6</item>
+
+        <!-- Outline colors -->
+        <item name="colorOutline">#404040</item>
+        <item name="colorOutlineVariant">#3A3A3A</item>
+
+        <!-- Status bar - dark theme -->
+        <item name="android:statusBarColor">@color/surface_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/surface_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">#191919</item>
+
+        <!-- Shape appearance - rounded corners like Notion -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Notion.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Notion.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Notion.LargeComponent</item>
+
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.Notion.Button.Dark</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Notion.Button.Outlined.Dark</item>
+
+        <!-- Card style -->
+        <item name="materialCardViewStyle">@style/Widget.Notion.CardView.Dark</item>
+        
+        <!-- Text input style -->
+        <item name="textInputStyle">@style/Widget.Notion.TextInputLayout.Dark</item>
+    </style>
+
+    <!-- Dark mode specific styles -->
+    <style name="Widget.Notion.Button.Dark" parent="Widget.Material3.Button">
+        <item name="android:textAppearance">@style/TextAppearance.Notion.Button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="backgroundTint">#FFFFFF</item>
+        <item name="android:textColor">#191919</item>
+    </style>
+
+    <style name="Widget.Notion.Button.Outlined.Dark" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.Notion.Button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#404040</item>
+        <item name="android:textColor">#E6E6E6</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <!-- Dark mode card style -->
+    <style name="Widget.Notion.CardView.Dark" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/card_background_dark</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#404040</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+    <!-- Dark mode text input -->
+    <style name="Widget.Notion.TextInputLayout.Dark" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeColor">#404040</item>
+        <item name="hintTextColor">#B3B3B3</item>
+    </style>
+</resources>
